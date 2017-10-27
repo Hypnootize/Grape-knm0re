@@ -36,6 +36,7 @@ Scheme{Colors{
 		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
+		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
@@ -51,6 +52,9 @@ Scheme{Colors{
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
 		"HudBlack"			"65 65 65 255"
+		"ProgressBarBlue"	"91 122 142 255"
+		
+		"CreditsGreen"		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
 
