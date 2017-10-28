@@ -411,7 +411,7 @@
 		"xpos"			"c-62"	[$WIN32]
 		"ypos"			"r170"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"120"
+		"wide"			"0"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
