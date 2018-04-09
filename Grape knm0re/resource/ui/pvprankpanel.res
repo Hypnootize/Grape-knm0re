@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +200,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -199,32 +207,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
-			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"chippyBlack16"
-			"fgcolor_override"	"255 255 255 255"
-			"textAlignment"	"north-west"
-			"labelText"		"%name%"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"	"0"
-				"font"			"HudFontSmallishBold"
-				"fgcolor_override"	"TanLight"
-			}
-		}
-
-		"LevelLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"65"
-			"ypos"			"20"
+			"ypos"			"0"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
@@ -233,15 +216,89 @@
 			"font"			"chippyBlack14"
 			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
+			"AllCaps"		"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
+
+		"DescLine1"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"15"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"chippyBlack11"
+			"fgcolor_override"	"255 255 255 255"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+			"AllCaps"		"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"font"			"HudFontSmallestBold"
+				"font"	"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
+				"AllCaps"		"0"
+			}
+
+			"fonts"
+			{
+				"0"		"chippyBlack11"
+				"1"		"chippyBlack11"
+				"2"		"chippyBlack11"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"chippyBlack11"
+			"fgcolor_override"	"255 255 255 255"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+			"AllCaps"		"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"AllCaps"		"0"
+			}
+
+			"fonts"
+			{
+				"0"		"chippyBlack11"
+				"1"		"chippyBlack11"
+				"2"		"chippyBlack11"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
