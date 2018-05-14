@@ -6765,70 +6765,69 @@ Scheme{Colors{
 		}			
 		"7" 
 		{
-			"font" "resource/Surface_Medium.otf"
+			"font" "resource/fonts/Surface_Medium.otf"
 			"name" "Surface-Medium"
 		}	
 		"8" 
 		{
-			"font" "resource/COOLVETI.TTF"
+			"font" "resource/fonts/COOLVETI.TTF"
 			"name" "Coolvetica"
 		}
 		"9" 
 		{
-			"font" "resource/ASTRO867.TTF"
+			"font" "resource/fonts/ASTRO867.TTF"
 			"name" "Astro 867"
 		}			
 		"10" 
 		{
-			"font" "resource/taller_evolution.ttf"
+			"font" "resource/fonts/taller_evolution.ttf"
 			"name" "taller evolution"
 		}	
 		"11"
 		{
-			"font" "resource/HelveticaWorld-Bold.ttf"
+			"font" "resource/fonts/HelveticaWorld-Bold.ttf"
 			"name" "HelveticaWorld-Bold"
 		}
 
 		"12"
 		{
-			"font" "resource/HelveticaWorld-Bold.ttf"
+			"font" "resource/fonts/HelveticaWorld-Bold.ttf"
 			"name" "HelveticaWorld-Bold"
 		}
 		"13"
 		{
-			"font" "resource/HelveticaNeueLTCom-BdOu.ttf"
+			"font" "resource/fonts/HelveticaNeueLTCom-BdOu.ttf"
 			"name" "HelveticaNeueLTCom-BdOu"
 		}
 		"14"
 		{
-  			"font" "resource/Custom Crosshairs.ttf"
+  			"font" "resource/fonts/Custom Crosshairs.ttf"
   			"name" "Custom Crosshairs"			
 		}	 			
 		"15" 
 		{ 
-			"font" "resource/crosshairs.ttf" 
+			"font" "resource/fonts/crosshairs.ttf" 
 			"name" "Crosshairs" 
 		}
 		"16"
 		{
-			"font" "resource/MavenPro-Regular.ttf"
+			"font" "resource/fonts/MavenPro-Regular.ttf"
 			"name" "Maven Pro Regular"
 		}
 		"17"
 		{
-			"font" "resource/MavenPro-Medium.ttf"
+			"font" "resource/fonts/MavenPro-Medium.ttf"
 			"name" "Maven Pro Medium"
 		}
 		"18"
 		{
-			"font" "resource/MavenPro-Bold.ttf"
+			"font" "resource/fonts/MavenPro-Bold.ttf"
 			"name" "Maven Pro Bold"
 		}
 		"19"
 		{
-			"font" "resource/MavenPro-Black.ttf"
+			"font" "resource/fonts/MavenPro-Black.ttf"
 			"name" "Maven Pro Black"
-		}		
-
+		}
 	}
 }
